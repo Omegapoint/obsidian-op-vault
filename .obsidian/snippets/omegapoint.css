@@ -1,0 +1,131 @@
+/* start with defining variables */
+body {
+	--font-monospace: "Hasklig";
+	--font-text-theme: "Roboto Sans";
+
+	--op-warm-gray-light: #e7e4df;
+	--op-warm-gray: #d7d2cb;
+	--op-warm-gray-dark: #bcb4a9;
+	--op-warm-gray-darker: hsl(35, 12%, 60%);
+	--op-warm-gray-darkest: #8f8270;
+	--op-petroleum-lighter: hsl(186, 44%, 48%);
+	--op-petroleum-light: #36848c;
+	--op-petroleum: #286166;
+	--op-petroleum-dark: #1f4d51;
+	--op-marine-lighter: hsl(198, 80%, 34%);
+	--op-marine-light: #00567a;
+	--op-marine: #003349;
+	--op-marine-dark: hsl(198, 100%, 10%);
+	--op-marine-darker: hsl(198, 100%, 7%);
+	--op-mine-shaft-lighter: hsl(0, 0%, 47%);
+	--op-mine-shaft-light: #525252;
+	--op-mine-shaft: #383838;
+	--op-mine-shaft-dark: hsl(0, 0%, 15%);
+	--op-mine-shaft-darker: hsl(0, 0%, 10%);
+	--op-omega-sun-light: #facc61;
+	--op-omega-sun: rgb(249, 188, 46);
+	--op-omega-sun-dark: hsl(42, 94%, 48%);
+	--op-omega-sun-darker: hsl(40, 94%, 42%);
+	--op-tango-light: #ed9450;
+	--op-tango: rgb(232, 119, 34);
+	--op-tango-dark: #c26014;
+	--op-white: #ffffff;
+	--op-black: #000000;
+
+
+	--blockquote-background-color: var(--background-secondary);
+	--code-background: var(--background-secondary);
+
+
+}
+
+.theme-light,
+.theme-dark {
+    --gray-1: #5C6370;
+    --gray-2: #abb2bf;
+    --red: rgb(232, 54, 34);
+    --color-red: var(--red);
+    --color-red-rgb: 232, 54, 34;
+    --orange: var(--op-tango);
+    --color-orange: var(--op-tango);
+    --color-orange-rgb: 232, 119, 34;
+    --green: hsl(101, 44%, 58%);
+    --color-green: var(--green);
+    --color-green-rgb: 80, 250, 123;
+    --aqua: hsl(186, 44%, 58%);
+    --color-aqua: var(--aqua);
+    --color-aqua-rgb: 69, 165, 176;
+    --cyan: var(--aqua);
+    --color-cyan: var(--aqua);
+    --color-cyan-rgb: 69, 165, 176;
+    /* --purple:var(--dracula-purple);
+    --color-purple:var(--dracula-purple);
+    --color-purple-rgb: 189, 147, 249; */
+    /* --blue: var(--dracula-cyan);
+    --color-blue: var(--dracula-cyan);
+    --color-blue-rgb: var(--dracula-cyan); */
+    --yellow: var(--op-omega-sun);
+    --color-yellow: var(--op-omega-sun);
+    --color-yellow-rgb: 249, 188, 46;
+    --pink: hsl(315, 54%, 68%);
+    --color-pink: var(--pink);
+    --color-pink-rgb: 255, 121, 198;
+}
+
+
+.theme-light {
+    --background-primary: var(--op-warm-gray-light); 
+    --background-primary-alt: var(--op-warm-gray-light);
+    --background-secondary: var(--op-warm-gray);
+    --background-secondary-alt:var(--op-warm-gray);
+    --background-accent:var(--op-petroleum);
+    --background-modifier-border: var(--op-warm-gray-dark);
+
+    --color-accent: var(--op-omega-sun-darker);
+    --color-accent-1: var(--op-tango);
+    --color-accent-2: var(--op-omega-sun-dark);
+
+    --text-faint: var(--op-warm-gray-darkest);
+
+
+    --code-keyword: var(--op-mine-shaft-lighter);
+    --code-function: var(--op-tango);
+    --code-property: var(--op-marine-light);
+    --code-string: var(--op-petroleum-light);
+}
+
+.theme-dark {
+    --background-primary: var(--op-marine); 
+    --background-primary-alt: var(--op-marine);
+    --background-secondary: var(--op-marine-dark);
+    --background-secondary-alt:var(--op-marine-dark);
+    --background-accent:var(--op-petroleum);
+
+    --background-modifier-border: var(--op-marine-darker);
+    --prompt-border-color: var(--op-marine-darker);
+
+    --color-accent: var(--op-omega-sun-darker);
+    --color-accent-1: var(--op-tango);
+    --color-accent-2: var(--op-omega-sun-dark);
+
+    --text-faint: var(--op-mine-shaft-lighter);
+    
+    /* --background-primary: var(--op-mine-shaft); 
+    --background-primary-alt: var(--op-mine-shaft);
+    --background-secondary: var(--op-mine-shaft-dark);
+    --background-secondary-alt:var(--op-mine-shaft-dark);
+    --background-accent:var(--op-petroleum);
+
+    --background-modifier-border: var(--op-mine-shaft-darker);
+    --prompt-border-color: var(--op-mine-shaft-darker);
+
+    --color-accent: var(--op-omega-sun-darker);
+    --color-accent-1: var(--op-tango);
+    --color-accent-2: var(--op-omega-sun-dark); */
+
+    --code-keyword: var(--color-orange);
+    --code-property: var(--op-petroleum-lighter);
+    --code-string: var(--op-warm-gray-dark);
+}
+
+

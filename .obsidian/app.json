@@ -1,0 +1,13 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+++",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./-media",
+  "promptDelete": false,
+  "useTab": false,
+  "trashOption": "local",
+  "showInlineTitle": false,
+  "propertiesInDocument": "hidden",
+  "showRibbon": true
+}
